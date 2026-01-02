@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Student Learning Portal</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background-color: #f4f4f4;
+        }
+
+        /* Header */
+        header {
+            background-color: #2c3e50;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #34495e;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        /* Section Styling */
+        section {
+            padding: 30px;
+            background-color: white;
+            margin: 20px;
+            border-radius: 8px;
+        }
+
+        h2 {
+            text-align: center;
+            color: #333;
+        }
+
+        /* Courses */
+        ul {
+            list-style-type: square;
+            margin-left: 40px;
+        }
+
+        /* Image */
+        .image-box {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .image-box img {
+            width: 300px;
+            height: 200px;
+            border: 2px solid #ccc;
+        }
+
+        /* Table */
+        table {
+            width: 80%;
+            margin: auto;
+            border-collapse: collapse;
+        }
+
+        th, td {
+            border: 1px solid #999;
+            padding: 10px;
+            text-align: center;
+        }
+
+        th {
+            background-color: #ddd;
+        }
+
+        /* Form */
+        form {
+            width: 60%;
+            margin: auto;
+        }
+
+        label {
+            font-weight: bold;
+        }
+
+        input, select, textarea {
+            width: 100%;
+            padding: 8px;
+            margin-top: 5px;
+            margin-bottom: 15px;
+        }
+
+        .btn {
+            padding: 10px 20px;
+            border: none;
+            background-color: #2c3e50;
+            color: white;
+            cursor: pointer;
+        }
+
+        .btn:hover {
+            background-color: #1a252f;
+        }
+
+        footer {
+            text-align: center;
+            padding: 15px;
+            background-color: #2c3e50;
+            color: white;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>STUDENT LEARNING PORTAL</h1>
+    <p>Learn • Practice • Grow</p>
+</header>
+
+<nav>
+    <a href="#">Home</a>
+    <a href="#">Courses</a>
+    <a href="#">About</a>
+    <a href="#">Contact</a>
+</nav>
+
+<section>
+    <h2>Welcome</h2>
+    <p style="text-align:center;">
+        Welcome to the Student Learning Portal. Learn HTML, CSS, and Web Development step by step.
+    </p>
+</section>
+
+<section>
+    <h2>Courses We Offer</h2>
+    <ul>
+        <li>HTML Basics</li>
+        <li>CSS Styling</li>
+        <li>JavaScript Fundamentals</li>
+        <li>Java Backend</li>
+    </ul>
+</section>
+
+<section class="image-box">
+    <h2>Learning Image</h2>
+    <img src="https://via.placeholder.com/300x200" alt="Learning Image">
+</section>
+
+<section>
+    <h2>Student Details</h2>
+    <table>
+        <tr>
+            <th>Name</th>
+            <th>Course</th>
+            <th>Progress</th>
+        </tr>
+        <tr>
+            <td>Ravi</td>
+            <td>HTML</td>
+            <td>80%</td>
+        </tr>
+        <tr>
+            <td>Anu</td>
+            <td>CSS</td>
+            <td>75%</td>
+        </tr>
+        <tr>
+            <td>Kiran</td>
+            <td>Java</td>
+            <td>90%</td>
+        </tr>
+    </table>
+</section>
+
+<section>
+    <h2>Registration Form</h2>
+
+    <form>
+        <label>Name:</label>
+        <input type="text" placeholder="Enter your name">
+
+        <label>Email:</label>
+        <input type="email" placeholder="Enter your email">
+
+        <label>Password:</label>
+        <input type="password" placeholder="Enter password">
+
+        <label>Gender:</label>
+        <input type="radio" name="gender"> Male
+        <input type="radio" name="gender"> Female
+
+        <label>Skills:</label>
+        <input type="checkbox"> HTML
+        <input type="checkbox"> CSS
+        <input type="checkbox"> Java
+
+        <label>Course:</label>
+        <select>
+            <option>Select Course</option>
+            <option>HTML</option>
+            <option>CSS</option>
+            <option>Java</option>
+        </select>
+
+        <label>About You:</label>
+        <textarea rows="4" placeholder="Write about yourself..."></textarea>
+
+        <button class="btn" type="submit">Submit</button>
+        <button class="btn" type="reset">Reset</button>
+    </form>
+</section>
+
+<footer>
+    © 2025 Student Learning Portal | All Rights Reserved
+</footer>
+
+</body>
+</html>
